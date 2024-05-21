@@ -1,6 +1,7 @@
 const express = require("express");
 const Album = require("../models/Album");
 
+
 const allAlbums = async (req, res) => {
   const {
     page = 1,
